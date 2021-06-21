@@ -1,0 +1,6 @@
+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\Pismeni\Distribuirani Sistemi - Pismeni\WCFChat\bin\WCFChat.dll.config
+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\Pismeni\Distribuirani Sistemi - Pismeni\WCFChat\bin\WCFChat.dll
+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\Pismeni\Distribuirani Sistemi - Pismeni\WCFChat\bin\WCFChat.pdb
+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\Pismeni\Distribuirani Sistemi - Pismeni\WCFChat\obj\Debug\WCFChat.csproj.CoreCompileInputs.cache
+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\Pismeni\Distribuirani Sistemi - Pismeni\WCFChat\obj\Debug\WCFChat.dll
+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\Pismeni\Distribuirani Sistemi - Pismeni\WCFChat\obj\Debug\WCFChat.pdb

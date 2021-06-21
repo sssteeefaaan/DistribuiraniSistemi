@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="12df5314-270f-4743-8efb-3993caca6efc" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:54800/Cisterna.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Cisterna.wsdl" MetadataType="Wsdl" ID="7af5d7b2-2fcb-4f85-9272-f446aa67c344" SourceId="1" SourceUrl="http://localhost:54800/Cisterna.svc?wsdl" />
+    <MetadataFile FileName="Cisterna1.xsd" MetadataType="Schema" ID="34e53f33-b949-4a20-a90f-62b41f428a0d" SourceId="1" SourceUrl="http://localhost:54800/Cisterna.svc?xsd=xsd2" />
+    <MetadataFile FileName="Cisterna.xsd" MetadataType="Schema" ID="1d61270c-28bd-46c6-83da-1244a40e7c43" SourceId="1" SourceUrl="http://localhost:54800/Cisterna.svc?xsd=xsd0" />
+    <MetadataFile FileName="Cisterna.disco" MetadataType="Disco" ID="e9deac50-0e94-4af1-b229-e5f5fb7691c0" SourceId="1" SourceUrl="http://localhost:54800/Cisterna.svc?disco" />
+    <MetadataFile FileName="Cisterna3.xsd" MetadataType="Schema" ID="153aa481-a515-429e-9b30-1af3432cd404" SourceId="1" SourceUrl="http://localhost:54800/Cisterna.svc?xsd=xsd3" />
+    <MetadataFile FileName="Cisterna2.xsd" MetadataType="Schema" ID="f6dd34ae-d9c8-49ff-899b-0fb92683eccf" SourceId="1" SourceUrl="http://localhost:54800/Cisterna.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,6 @@
+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\11. Primer - WCF_1\WcfService\WcfServiceCisterna\bin\WcfServiceCisterna.dll.config
+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\11. Primer - WCF_1\WcfService\WcfServiceCisterna\bin\WcfServiceCisterna.dll
+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\11. Primer - WCF_1\WcfService\WcfServiceCisterna\bin\WcfServiceCisterna.pdb
+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\11. Primer - WCF_1\WcfService\WcfServiceCisterna\obj\Release\WcfServiceCisterna.csproj.CoreCompileInputs.cache
+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\11. Primer - WCF_1\WcfService\WcfServiceCisterna\obj\Release\WcfServiceCisterna.dll
+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\11. Primer - WCF_1\WcfService\WcfServiceCisterna\obj\Release\WcfServiceCisterna.pdb

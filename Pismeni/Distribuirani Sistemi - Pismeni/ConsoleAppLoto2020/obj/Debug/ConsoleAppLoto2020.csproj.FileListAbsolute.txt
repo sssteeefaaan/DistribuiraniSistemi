@@ -1,0 +1,7 @@
+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\Pismeni\Distribuirani Sistemi - Pismeni\ConsoleAppLoto2020\bin\Debug\ConsoleAppLoto2020.exe.config
+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\Pismeni\Distribuirani Sistemi - Pismeni\ConsoleAppLoto2020\bin\Debug\ConsoleAppLoto2020.exe
+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\Pismeni\Distribuirani Sistemi - Pismeni\ConsoleAppLoto2020\bin\Debug\ConsoleAppLoto2020.pdb
+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\Pismeni\Distribuirani Sistemi - Pismeni\ConsoleAppLoto2020\obj\Debug\ConsoleAppLoto2020.csprojAssemblyReference.cache
+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\Pismeni\Distribuirani Sistemi - Pismeni\ConsoleAppLoto2020\obj\Debug\ConsoleAppLoto2020.csproj.CoreCompileInputs.cache
+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\Pismeni\Distribuirani Sistemi - Pismeni\ConsoleAppLoto2020\obj\Debug\ConsoleAppLoto2020.exe
+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\Pismeni\Distribuirani Sistemi - Pismeni\ConsoleAppLoto2020\obj\Debug\ConsoleAppLoto2020.pdb

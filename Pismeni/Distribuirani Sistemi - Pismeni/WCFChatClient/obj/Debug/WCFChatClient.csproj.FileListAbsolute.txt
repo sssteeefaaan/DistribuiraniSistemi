@@ -1,0 +1,10 @@
+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\Pismeni\Distribuirani Sistemi - Pismeni\WCFChatClient\bin\Debug\WCFChatClient.exe.config
+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\Pismeni\Distribuirani Sistemi - Pismeni\WCFChatClient\bin\Debug\WCFChatClient.exe
+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\Pismeni\Distribuirani Sistemi - Pismeni\WCFChatClient\bin\Debug\WCFChatClient.pdb
+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\Pismeni\Distribuirani Sistemi - Pismeni\WCFChatClient\obj\Debug\WCFChatClient.csprojAssemblyReference.cache
+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\Pismeni\Distribuirani Sistemi - Pismeni\WCFChatClient\obj\Debug\WCFChatClient.Form1.resources
+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\Pismeni\Distribuirani Sistemi - Pismeni\WCFChatClient\obj\Debug\WCFChatClient.Properties.Resources.resources
+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\Pismeni\Distribuirani Sistemi - Pismeni\WCFChatClient\obj\Debug\WCFChatClient.csproj.GenerateResource.cache
+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\Pismeni\Distribuirani Sistemi - Pismeni\WCFChatClient\obj\Debug\WCFChatClient.csproj.CoreCompileInputs.cache
+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\Pismeni\Distribuirani Sistemi - Pismeni\WCFChatClient\obj\Debug\WCFChatClient.exe
+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\Pismeni\Distribuirani Sistemi - Pismeni\WCFChatClient\obj\Debug\WCFChatClient.pdb

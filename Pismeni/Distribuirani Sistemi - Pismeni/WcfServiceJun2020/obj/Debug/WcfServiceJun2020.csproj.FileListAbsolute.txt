@@ -1,0 +1,6 @@
+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\Pismeni\Distribuirani Sistemi - Pismeni\WcfServiceJun2020\bin\WcfServiceJun2020.dll.config
+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\Pismeni\Distribuirani Sistemi - Pismeni\WcfServiceJun2020\bin\WcfServiceJun2020.dll
+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\Pismeni\Distribuirani Sistemi - Pismeni\WcfServiceJun2020\bin\WcfServiceJun2020.pdb
+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\Pismeni\Distribuirani Sistemi - Pismeni\WcfServiceJun2020\obj\Debug\WcfServiceJun2020.csproj.CoreCompileInputs.cache
+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\Pismeni\Distribuirani Sistemi - Pismeni\WcfServiceJun2020\obj\Debug\WcfServiceJun2020.dll
+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\Pismeni\Distribuirani Sistemi - Pismeni\WcfServiceJun2020\obj\Debug\WcfServiceJun2020.pdb

@@ -1,0 +1,7 @@
+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\11. Primer - WCF_1\WcfService\Calculator\bin\Calculator.dll.config
+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\11. Primer - WCF_1\WcfService\Calculator\bin\Calculator.dll
+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\11. Primer - WCF_1\WcfService\Calculator\bin\Calculator.pdb
+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\11. Primer - WCF_1\WcfService\Calculator\obj\Release\Calculator.csprojAssemblyReference.cache
+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\11. Primer - WCF_1\WcfService\Calculator\obj\Release\Calculator.csproj.CoreCompileInputs.cache
+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\11. Primer - WCF_1\WcfService\Calculator\obj\Release\Calculator.dll
+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\11. Primer - WCF_1\WcfService\Calculator\obj\Release\Calculator.pdb

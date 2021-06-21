@@ -1,0 +1,10 @@
+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\11. Primer - WCF_1\WcfService\WindowsFormsAppExactTime\bin\Debug\WindowsFormsAppExactTime.exe.config
+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\11. Primer - WCF_1\WcfService\WindowsFormsAppExactTime\bin\Debug\WindowsFormsAppExactTime.exe
+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\11. Primer - WCF_1\WcfService\WindowsFormsAppExactTime\bin\Debug\WindowsFormsAppExactTime.pdb
+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\11. Primer - WCF_1\WcfService\WindowsFormsAppExactTime\obj\Debug\WindowsFormsAppExactTime.csprojAssemblyReference.cache
+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\11. Primer - WCF_1\WcfService\WindowsFormsAppExactTime\obj\Debug\WindowsFormsAppExactTime.FormExactTime.resources
+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\11. Primer - WCF_1\WcfService\WindowsFormsAppExactTime\obj\Debug\WindowsFormsAppExactTime.Properties.Resources.resources
+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\11. Primer - WCF_1\WcfService\WindowsFormsAppExactTime\obj\Debug\WindowsFormsAppExactTime.csproj.GenerateResource.cache
+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\11. Primer - WCF_1\WcfService\WindowsFormsAppExactTime\obj\Debug\WindowsFormsAppExactTime.csproj.CoreCompileInputs.cache
+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\11. Primer - WCF_1\WcfService\WindowsFormsAppExactTime\obj\Debug\WindowsFormsAppExactTime.exe
+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\11. Primer - WCF_1\WcfService\WindowsFormsAppExactTime\obj\Debug\WindowsFormsAppExactTime.pdb

@@ -1,0 +1,6 @@
+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\Pismeni\Distribuirani Sistemi - Pismeni\WcfServiceAprilBeKalbaka\bin\WcfServiceAprilBeKalbaka.dll.config
+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\Pismeni\Distribuirani Sistemi - Pismeni\WcfServiceAprilBeKalbaka\bin\WcfServiceAprilBeKalbaka.dll
+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\Pismeni\Distribuirani Sistemi - Pismeni\WcfServiceAprilBeKalbaka\bin\WcfServiceAprilBeKalbaka.pdb
+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\Pismeni\Distribuirani Sistemi - Pismeni\WcfServiceAprilBeKalbaka\obj\Debug\WcfServiceAprilBeKalbaka.csproj.CoreCompileInputs.cache
+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\Pismeni\Distribuirani Sistemi - Pismeni\WcfServiceAprilBeKalbaka\obj\Debug\WcfServiceAprilBeKalbaka.dll
+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\Pismeni\Distribuirani Sistemi - Pismeni\WcfServiceAprilBeKalbaka\obj\Debug\WcfServiceAprilBeKalbaka.pdb

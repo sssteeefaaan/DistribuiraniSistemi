@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Autobusi" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:57392/Autobusi.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:57392/Autobusi.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:57392/Autobusi.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Wcf_Januar_2019" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IAutobusi_Registracija_InputMessage">
+    <wsdl:part name="parameters" element="tns:Registracija" />
+  </wsdl:message>
+  <wsdl:message name="IAutobusi_Registracija_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RegistracijaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAutobusi_VratiLinijeKojeProlaze_InputMessage">
+    <wsdl:part name="parameters" element="tns:VratiLinijeKojeProlaze" />
+  </wsdl:message>
+  <wsdl:message name="IAutobusi_VratiLinijeKojeProlaze_OutputMessage">
+    <wsdl:part name="parameters" element="tns:VratiLinijeKojeProlazeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAutobusi_VratiLinijeSaPodrutom_InputMessage">
+    <wsdl:part name="parameters" element="tns:VratiLinijeSaPodrutom" />
+  </wsdl:message>
+  <wsdl:message name="IAutobusi_VratiLinijeSaPodrutom_OutputMessage">
+    <wsdl:part name="parameters" element="tns:VratiLinijeSaPodrutomResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAutobusi_VratiStanice_InputMessage">
+    <wsdl:part name="parameters" element="tns:VratiStanice" />
+  </wsdl:message>
+  <wsdl:message name="IAutobusi_VratiStanice_OutputMessage">
+    <wsdl:part name="parameters" element="tns:VratiStaniceResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IAutobusi">
+    <wsdl:operation name="Registracija">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAutobusi/Registracija" message="tns:IAutobusi_Registracija_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAutobusi/RegistracijaResponse" message="tns:IAutobusi_Registracija_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="VratiLinijeKojeProlaze">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAutobusi/VratiLinijeKojeProlaze" message="tns:IAutobusi_VratiLinijeKojeProlaze_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAutobusi/VratiLinijeKojeProlazeResponse" message="tns:IAutobusi_VratiLinijeKojeProlaze_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="VratiLinijeSaPodrutom">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAutobusi/VratiLinijeSaPodrutom" message="tns:IAutobusi_VratiLinijeSaPodrutom_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAutobusi/VratiLinijeSaPodrutomResponse" message="tns:IAutobusi_VratiLinijeSaPodrutom_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="VratiStanice">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAutobusi/VratiStanice" message="tns:IAutobusi_VratiStanice_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAutobusi/VratiStaniceResponse" message="tns:IAutobusi_VratiStanice_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IAutobusi" type="tns:IAutobusi">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Registracija">
+      <soap:operation soapAction="http://tempuri.org/IAutobusi/Registracija" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VratiLinijeKojeProlaze">
+      <soap:operation soapAction="http://tempuri.org/IAutobusi/VratiLinijeKojeProlaze" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VratiLinijeSaPodrutom">
+      <soap:operation soapAction="http://tempuri.org/IAutobusi/VratiLinijeSaPodrutom" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VratiStanice">
+      <soap:operation soapAction="http://tempuri.org/IAutobusi/VratiStanice" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Autobusi">
+    <wsdl:port name="BasicHttpBinding_IAutobusi" binding="tns:BasicHttpBinding_IAutobusi">
+      <soap:address location="http://localhost:57392/Autobusi.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

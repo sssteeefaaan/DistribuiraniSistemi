@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="f6da381f-8a82-4fbc-8564-2f122d013438" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:56106/ServiceExactTime.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ServiceExactTime.disco" MetadataType="Disco" ID="617d03c7-84f6-4568-a25f-d635aa16d2f9" SourceId="1" SourceUrl="http://localhost:56106/ServiceExactTime.svc?disco" />
+    <MetadataFile FileName="ServiceExactTime.xsd" MetadataType="Schema" ID="332b8a3f-07ae-4487-94d6-2ca72da47c12" SourceId="1" SourceUrl="http://localhost:56106/ServiceExactTime.svc?xsd=xsd1" />
+    <MetadataFile FileName="ServiceExactTime1.xsd" MetadataType="Schema" ID="a8b41676-6f72-4e87-a86f-37b5c1406ff5" SourceId="1" SourceUrl="http://localhost:56106/ServiceExactTime.svc?xsd=xsd0" />
+    <MetadataFile FileName="ServiceExactTime.wsdl" MetadataType="Wsdl" ID="4ac7faaa-0e12-4581-99e5-ee65fbf53307" SourceId="1" SourceUrl="http://localhost:56106/ServiceExactTime.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

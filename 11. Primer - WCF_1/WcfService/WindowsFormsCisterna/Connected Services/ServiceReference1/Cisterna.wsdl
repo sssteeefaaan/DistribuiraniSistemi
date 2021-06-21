@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Cisterna" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:54800/Cisterna.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:54800/Cisterna.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:54800/Cisterna.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/WcfServiceCisterna" />
+      <xsd:import schemaLocation="http://localhost:54800/Cisterna.svc?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ICisterna_DodajMaterijal_InputMessage">
+    <wsdl:part name="parameters" element="tns:DodajMaterijal" />
+  </wsdl:message>
+  <wsdl:message name="ICisterna_DodajMaterijal_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DodajMaterijalResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICisterna_Isipaj_InputMessage">
+    <wsdl:part name="parameters" element="tns:Isipaj" />
+  </wsdl:message>
+  <wsdl:message name="ICisterna_Isipaj_OutputMessage">
+    <wsdl:part name="parameters" element="tns:IsipajResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICisterna_PreuzmiMaterijal_InputMessage">
+    <wsdl:part name="parameters" element="tns:PreuzmiMaterijal" />
+  </wsdl:message>
+  <wsdl:message name="ICisterna_PreuzmiMaterijal_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PreuzmiMaterijalResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICisterna_PreuzmiIzmene_InputMessage">
+    <wsdl:part name="parameters" element="tns:PreuzmiIzmene" />
+  </wsdl:message>
+  <wsdl:message name="ICisterna_PreuzmiIzmene_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PreuzmiIzmeneResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ICisterna">
+    <wsdl:operation name="DodajMaterijal">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICisterna/DodajMaterijal" message="tns:ICisterna_DodajMaterijal_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICisterna/DodajMaterijalResponse" message="tns:ICisterna_DodajMaterijal_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Isipaj">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICisterna/Isipaj" message="tns:ICisterna_Isipaj_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICisterna/IsipajResponse" message="tns:ICisterna_Isipaj_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PreuzmiMaterijal">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICisterna/PreuzmiMaterijal" message="tns:ICisterna_PreuzmiMaterijal_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICisterna/PreuzmiMaterijalResponse" message="tns:ICisterna_PreuzmiMaterijal_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PreuzmiIzmene">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICisterna/PreuzmiIzmene" message="tns:ICisterna_PreuzmiIzmene_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICisterna/PreuzmiIzmeneResponse" message="tns:ICisterna_PreuzmiIzmene_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_ICisterna" type="tns:ICisterna">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="DodajMaterijal">
+      <soap:operation soapAction="http://tempuri.org/ICisterna/DodajMaterijal" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Isipaj">
+      <soap:operation soapAction="http://tempuri.org/ICisterna/Isipaj" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PreuzmiMaterijal">
+      <soap:operation soapAction="http://tempuri.org/ICisterna/PreuzmiMaterijal" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PreuzmiIzmene">
+      <soap:operation soapAction="http://tempuri.org/ICisterna/PreuzmiIzmene" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Cisterna">
+    <wsdl:port name="BasicHttpBinding_ICisterna" binding="tns:BasicHttpBinding_ICisterna">
+      <soap:address location="http://localhost:54800/Cisterna.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

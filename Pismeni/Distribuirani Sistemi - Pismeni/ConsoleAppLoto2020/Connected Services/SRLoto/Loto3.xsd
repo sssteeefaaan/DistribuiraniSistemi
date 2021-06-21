@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:62009/Loto.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/WcfServiceJun2020" />
+  <xs:element name="DodajKombinaciju">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="nick" nillable="true" type="xs:string" />
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/WcfServiceJun2020" minOccurs="0" name="kombinacija" nillable="true" type="q1:Kombinacija" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DodajKombinacijuResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DodajKombinacijuResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UkloniKombinaciju">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="nick" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="kombinacijaID" type="xs:long" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UkloniKombinacijuResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UkloniKombinacijuResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="KreniIzvlacenje">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="sifra" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="value" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="KreniIzvlacenjeResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ProsledjivanjeBroja">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="broj" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="KrajIzvlacenja">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/WcfServiceJun2020" minOccurs="0" name="rezultat" nillable="true" type="q2:Rezultat" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ProsledjivanjeCestitke">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/WcfServiceJun2020" minOccurs="0" name="cestitka" nillable="true" type="q3:Cestitka" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

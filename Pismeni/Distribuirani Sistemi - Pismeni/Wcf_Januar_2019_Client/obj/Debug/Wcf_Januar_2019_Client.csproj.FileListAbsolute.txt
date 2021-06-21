@@ -1,0 +1,7 @@
+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\Pismeni\Distribuirani Sistemi - Pismeni\Wcf_Januar_2019_Client\bin\Debug\Wcf_Januar_2019_Client.exe.config
+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\Pismeni\Distribuirani Sistemi - Pismeni\Wcf_Januar_2019_Client\bin\Debug\Wcf_Januar_2019_Client.exe
+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\Pismeni\Distribuirani Sistemi - Pismeni\Wcf_Januar_2019_Client\bin\Debug\Wcf_Januar_2019_Client.pdb
+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\Pismeni\Distribuirani Sistemi - Pismeni\Wcf_Januar_2019_Client\obj\Debug\Wcf_Januar_2019_Client.csprojAssemblyReference.cache
+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\Pismeni\Distribuirani Sistemi - Pismeni\Wcf_Januar_2019_Client\obj\Debug\Wcf_Januar_2019_Client.csproj.CoreCompileInputs.cache
+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\Pismeni\Distribuirani Sistemi - Pismeni\Wcf_Januar_2019_Client\obj\Debug\Wcf_Januar_2019_Client.exe
+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\Pismeni\Distribuirani Sistemi - Pismeni\Wcf_Januar_2019_Client\obj\Debug\Wcf_Januar_2019_Client.pdb

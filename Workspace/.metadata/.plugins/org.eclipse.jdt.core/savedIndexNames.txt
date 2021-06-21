@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\Workspace\.metadata\.plugins\org.eclipse.jdt.core
+3322233238.index
+2122079379.index
+1124525146.index

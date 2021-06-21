@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="9bd868ea-916d-4609-bff5-8ada2ae2e0c2" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:51796/RegVozila.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="RegVozila.wsdl" MetadataType="Wsdl" ID="4e77f0cc-10f0-49fe-a723-5160323991c0" SourceId="1" SourceUrl="http://localhost:51796/RegVozila.svc?wsdl" />
+    <MetadataFile FileName="RegVozila.xsd" MetadataType="Schema" ID="182d77d4-0764-428d-b1db-cc1bf532efc6" SourceId="1" SourceUrl="http://localhost:51796/RegVozila.svc?xsd=xsd0" />
+    <MetadataFile FileName="RegVozila1.xsd" MetadataType="Schema" ID="42b02fed-a61d-441c-8b5b-820cc77e5c53" SourceId="1" SourceUrl="http://localhost:51796/RegVozila.svc?xsd=xsd1" />
+    <MetadataFile FileName="RegVozila.disco" MetadataType="Disco" ID="e51cd145-0c50-4a5c-8743-0a00d498098f" SourceId="1" SourceUrl="http://localhost:51796/RegVozila.svc?disco" />
+    <MetadataFile FileName="RegVozila2.xsd" MetadataType="Schema" ID="7925eee7-e6fb-4095-8e6c-19ddb29ea4d5" SourceId="1" SourceUrl="http://localhost:51796/RegVozila.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

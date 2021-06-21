@@ -1,0 +1,7 @@
+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\Pismeni\Distribuirani Sistemi - Pismeni\WcfAprilClientBezKolbaka\bin\Debug\WcfAprilClientBezKolbaka.exe.config
+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\Pismeni\Distribuirani Sistemi - Pismeni\WcfAprilClientBezKolbaka\bin\Debug\WcfAprilClientBezKolbaka.exe
+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\Pismeni\Distribuirani Sistemi - Pismeni\WcfAprilClientBezKolbaka\bin\Debug\WcfAprilClientBezKolbaka.pdb
+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\Pismeni\Distribuirani Sistemi - Pismeni\WcfAprilClientBezKolbaka\obj\Debug\WcfAprilClientBezKolbaka.csprojAssemblyReference.cache
+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\Pismeni\Distribuirani Sistemi - Pismeni\WcfAprilClientBezKolbaka\obj\Debug\WcfAprilClientBezKolbaka.csproj.CoreCompileInputs.cache
+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\Pismeni\Distribuirani Sistemi - Pismeni\WcfAprilClientBezKolbaka\obj\Debug\WcfAprilClientBezKolbaka.exe
+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Kod\Pismeni\Distribuirani Sistemi - Pismeni\WcfAprilClientBezKolbaka\obj\Debug\WcfAprilClientBezKolbaka.pdb

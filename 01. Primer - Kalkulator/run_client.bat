@@ -1,0 +1,2 @@
+java CalculatorClient localhost 1099 CalculatorService
+pause
