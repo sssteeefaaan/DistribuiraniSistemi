@@ -1,0 +1,24 @@
+package glavni;
+
+import java.rmi.Remote;
+import java.rmi.RemoteException;
+import java.rmi.server.UnicastRemoteObject;
+import java.util.Hashtable;
+
+public class IspitImpl extends UnicastRemoteObject implements Ispit{
+
+	private String naziv;
+	private int brojPrijavljenihStudenata;
+	
+	public IspitImpl(String naziv) throws RemoteException{
+		super();
+		
+		this.naziv = naziv;
+	}
+	public String vratiNaziv() throws RemoteException{
+		return this.naziv;
+	}
+	public int vratiBrojPrijava() throws RemoteException{
+		return this.brojPrijavljenihStudenata;
+	}
+}

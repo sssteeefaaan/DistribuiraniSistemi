@@ -1,0 +1,6 @@
+package glavni;
+import java.rmi.Remote;
+
+public interface EStudSluzbaCallback extends Remote{
+	
+}

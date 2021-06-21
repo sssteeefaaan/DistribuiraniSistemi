@@ -1,0 +1,5 @@
+package glavni;
+
+public interface EAukcijaCallback {
+
+}

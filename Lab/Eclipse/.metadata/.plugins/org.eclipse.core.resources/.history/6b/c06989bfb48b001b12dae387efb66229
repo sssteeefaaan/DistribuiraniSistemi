@@ -1,0 +1,20 @@
+package glavni;
+
+import java.rmi.Remote;
+import java.rmi.RemoteException;
+import java.rmi.server.UnicastRemoteObject;
+import java.util.Hashtable;
+
+public class IspitImpl extends UnicastRemoteObject implements Ispit{
+
+	private Hashtable<String, Prijava> prijave;
+	private Hashtable<String, EStudSluzbaCallback> studentiPrijavljeniZaObavestenja;
+	String vratiNaziv() throws RemoteException;
+	int vratiBrojPrijava() throws RemoteException;
+	
+	public void registrujSe(EStudSluzbaCallback povratniPoziv) throws RemoteException{
+		if(!this.studentiPrijavljeniZaObavestenja.contains(povratniPoziv))
+			this.studentiPrijavljeniZaObavestenja.add(povratniPoziv);
+	}
+	public void odjaviSe(EStudSluzbaCallback povratniPoziv) throws RemoteException;
+}

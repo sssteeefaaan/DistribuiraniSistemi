@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\stefa\Documents\Faks\III godina\VI semestar\Distribuirani Sistemi\Lab\Eclipse\.metadata\.plugins\org.eclipse.jdt.core
+3149349827.index
+3999552314.index
+3322233238.index

@@ -1,0 +1,6 @@
+package glavni;
+
+public interface EAukcijaCallback extends Remote{
+
+	void callback(int version) throws RemoteException;
+}

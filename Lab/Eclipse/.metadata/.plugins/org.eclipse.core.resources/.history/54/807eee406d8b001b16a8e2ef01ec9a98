@@ -1,0 +1,53 @@
+package glavni;
+import java.rmi.RemoteException;
+import java.rmi.server.UnicastRemoteObject;
+import java.util.Hashtable;
+
+public class EAukcijaManagerImpl extends UnicastRemoteObject implements EAukcijaManager{
+	
+	private static final long serialVersionUID = 1L;
+	private Hashtable<String, Eksponat> eksponati;
+	private int version;
+	
+	public EAukcijaManagerImpl() throws RemoteException{
+		super();
+		this.eksponati = new Hashtable<String, Eksponat>();
+		this.version = 0;
+	}
+	
+	public Eksponat vratiEksponat(String id) throws RemoteException{
+		return this.eksponati.get(id);
+	}
+	
+	public boolean dodajEksponat(Eksponat eksponat) throws RemoteException{
+		
+		this.version++;
+		String ID = eksponat.vratiID();
+		if(this.eksponati.get(ID) == null)
+		{
+			this.eksponati.put(ID, eksponat);
+			return true;
+		}
+		
+		return false;
+	}
+	
+	public Hashtable<String, Eksponat> vratiBazu() throws RemoteException{
+		return this.eksponati;
+	}
+
+	public int getVersion() throws RemoteException {
+		return this.version;
+	}
+
+	public void register(EAukcijaCallback callback) throws RemoteException {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void unregister(EAukcijaCallback callback) throws RemoteException {
+		// TODO Auto-generated method stub
+		
+	}
+}

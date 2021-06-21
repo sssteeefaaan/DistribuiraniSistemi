@@ -1,0 +1,17 @@
+package glavni;
+import java.rmi.Remote;
+import java.rmi.RemoteException;
+import java.util.Hashtable;
+
+public interface EAukcijaManager extends Remote{
+	
+	Eksponat vratiEksponat(String id) throws RemoteException;
+	boolean dodajEksponat(Eksponat eksponat) throws RemoteException;
+	
+	Hashtable<String, Eksponat> vratiBazu() throws RemoteException;
+	
+	int getVersion() throws RemoteException;
+	
+	void register(EAukcijaCallback callback) throws RemoteException;
+	void unregister(EAukcijaCallback callback) throws RemoteException;
+}
