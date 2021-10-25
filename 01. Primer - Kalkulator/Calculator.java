@@ -1,7 +1,7 @@
 import java.rmi.Remote;
 import java.rmi.RemoteException;
 
-public interface Calculator extends java.rmi.Remote
+public interface Calculator extends Remote
 {
 	public double add(double a, double b) throws RemoteException;
 	
